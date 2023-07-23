@@ -5,7 +5,7 @@ import raycues from "../../assets/Portfolio/raycues.png";
 import purpleGlib from "../../assets/Portfolio/purple-glib.png";
 import weather from "../../assets/Portfolio/weather.png";
 import todo from "../../assets/Portfolio/todo.png";
-
+import google from "../../assets/Portfolio/google.png";
 
 export const projectsData = [
     {
@@ -78,7 +78,16 @@ export const projectsData = [
         demoLink: "https://sarnendu-todolist.netlify.app/",
         githubVisibility: 1
     },
-    
+    {
+        id: 6,
+        image: google,
+        title: "Google Clone",
+        category: "Personal",
+        languages: "NextJs, ReactJs",
+        githubLink: "/",
+        demoLink: "https://google-clone-sarnendu.vercel.app/",
+        githubVisibility: 1
+    },
 ];
 
 export const projectsNav = [
