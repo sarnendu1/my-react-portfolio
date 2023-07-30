@@ -2,7 +2,7 @@ import React from 'react';
 import './scrollup.css';
 import { HiOutlineArrowSmUp } from "react-icons/hi";
 
-const ScrollUp = () => {
+const ScrollUp = ({home, scrollToSection}) => {
     window.addEventListener("scroll", function () {
         const scrollUp = document.querySelector(".scrollup");
         if(this.scrollY >= 560) scrollUp.classList.add("show-scroll");
@@ -10,7 +10,7 @@ const ScrollUp = () => {
     });
   
     return (
-    <a href="#" className="scrollup"><HiOutlineArrowSmUp className="scrollup__icon"/></a>
+    <a  className="scrollup" onClick={() => scrollToSection(home)}><HiOutlineArrowSmUp className="scrollup__icon"/></a>
   );
 }
 

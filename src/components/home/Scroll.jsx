@@ -1,10 +1,10 @@
 import React from 'react';
 import {HiOutlineArrowSmDown} from "react-icons/hi";
 
-const Scroll = () => {
+const Scroll = ({home, scrollToSection}) => {
   return (
     <div className="home__scroll">
-        <a href="#about" className="home__scroll-button button--flex">
+        <a onClick={() => scrollToSection(home)} className="home__scroll-button button--flex">
             <svg
                 width="32px"
                 height="32px"
@@ -41,7 +41,7 @@ const Scroll = () => {
                 ></path>
             </svg>
             {/* <span className="home__scroll-name">Scroll Down</span> */}
-            <HiOutlineArrowSmDown className="home__scroll-arrow"/>
+            <HiOutlineArrowSmDown onClick={() => scrollToSection(home)} className="home__scroll-arrow" />
         </a>
     </div>
   )

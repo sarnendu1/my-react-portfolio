@@ -6,6 +6,12 @@ import purpleGlib from "../../assets/Portfolio/purple-glib.png";
 import weather from "../../assets/Portfolio/weather.png";
 import todo from "../../assets/Portfolio/todo.png";
 import google from "../../assets/Portfolio/google.png";
+import kepler from "../../assets/Portfolio/kepler.png";
+import chatGPT2 from "../../assets/Portfolio/chatGPT2.O.png";
+import crud from "../../assets/Portfolio/crud.png";
+import dawai from "../../assets/Portfolio/dawai.png";
+import hemanth from "../../assets/Portfolio/hemanth.png";
+
 
 export const projectsData = [
     {
@@ -15,39 +21,50 @@ export const projectsData = [
         category: "Professional",
         languages: "ReactJs, Redux, MaterialUi ",
         githubLink: "/",
-        demoLink: "https://mta.mobillor.net/",
+        demoLink: "https://mta.mobillor.net",
         githubVisibility: 0,
     },
     {
         id: 2,
-        image: flipkartClone,
-        title: "Flipkart Clone",
+        image: kepler,
+        title: "Kepler",
         category: "Personal",
-        languages: "ReactJs, MaterialUi ",
+        languages: "ReactJs, Redux, Sass ",
         githubLink: "/",
-        demoLink: "/",
-        githubVisibility: 1,
+        demoLink: "https://kepler-sarnendu.netlify.app",
+        githubVisibility: 0,
     },
     {
         id: 3,
-        image: chatbox,
-        title: "Chatbox",
+        image: chatGPT2,
+        title: "ChatGPT 2.O",
         category: "Personal",
-        languages: "NodeJs, Socket.IO, HTML, CSS",
+        languages: "ReactJs, OpenAI",
         githubLink: "/",
-        demoLink: "/",
-        githubVisibility: 1,
+        demoLink: "https://ai-app-sarnendu.netlify.app",
+        githubVisibility: 0
     },
     {
         id: 4,
-        image: raycues,
-        title: "Raycues",
-        category: "Professional",
-        languages: "NextJs, Javascript, HTML, CSS, Bootstrap",
+        image: google,
+        title: "Google Clone",
+        category: "Personal",
+        languages: "NextJs, ReactJs",
         githubLink: "/",
-        demoLink: "https://rayques.com/",
+        demoLink: "https://google-clone-sarnendu.vercel.app",
         githubVisibility: 0
     },
+    // {
+    //     id: 3,
+    //     image: flipkartClone,
+    //     title: "Flipkart Clone",
+    //     category: "Personal",
+    //     languages: "ReactJs, MaterialUi ",
+    //     githubLink: "/",
+    //     demoLink: "/",
+    //     githubVisibility: 1,
+    // },
+
     {
         id: 5,
         image: purpleGlib,
@@ -55,39 +72,82 @@ export const projectsData = [
         category: "Personal",
         languages: "NextJs, ReactJs, MaterialUi ",
         githubLink: "/",
+        demoLink: "https://sarnendu-blog-app-sarnendu1.vercel.app",
+        githubVisibility: 0
+    },
+    {
+        id: 6,
+        image: raycues,
+        title: "Raycues",
+        category: "Professional",
+        languages: "NextJs, Javascript, HTML, CSS, Bootstrap",
+        githubLink: "/",
+        demoLink: "https://rayques.com",
+        githubVisibility: 0
+    },
+    {
+        id: 7,
+        image: chatbox,
+        title: "Chatbox",
+        category: "Personal",
+        languages: "NodeJs, Socket.IO, HTML, CSS",
+        githubLink: "https://github.com/sarnendu1/chatbox",
         demoLink: "/",
+        githubVisibility: 1,
+    },
+    {
+        id: 8,
+        image: crud,
+        title: "CRUD App",
+        category: "Personal",
+        languages: "MERN",
+        githubLink: "/",
+        demoLink: "https://sarnendu-todolist.netlify.app",
         githubVisibility: 1
     },
     {
-        id: 5,
+        id: 9,
         image: weather,
         title: "Weather App",
         category: "Personal",
-        languages: "NextJs, ReactJs, MaterialUi ",
+        languages: "ReactJs, NodeJs, ExpressJs, Javascript, HTML, CSS ",
         githubLink: "/",
-        demoLink: "https://sarnendu-weather-app.netlify.app/",
+        demoLink: "https://sarnendu-weather-app.netlify.app",
         githubVisibility: 1
     },
     {
-        id: 5,
+        id: 10,
         image: todo,
         title: "Todo List",
         category: "Personal",
         languages: "Javascript, HTML, CSS, Bootstrap",
         githubLink: "/",
-        demoLink: "https://sarnendu-todolist.netlify.app/",
+        demoLink: "https://sarnendu-todolist.netlify.app",
         githubVisibility: 1
+    },
+    
+    {
+        id: 11,
+        image: hemanth,
+        title: "Dr.Hemanth's Clinic",
+        category: "Professional",
+        languages: "NodeJs, ExpressJs, Javascript, HTML, CSS",
+        githubLink: "/",
+        demoLink: "https://drhemanthclinic.com",
+        githubVisibility: 0
     },
     {
-        id: 6,
-        image: google,
-        title: "Google Clone",
-        category: "Personal",
-        languages: "NextJs, ReactJs",
+        id: 12,
+        image: dawai,
+        title: "Dawai Help",
+        category: "Professional",
+        languages: "NodeJs, ExpressJs, Javascript, HTML, CSS",
         githubLink: "/",
-        demoLink: "https://google-clone-sarnendu.vercel.app/",
-        githubVisibility: 1
+        demoLink: "https://dawai.help",
+        githubVisibility: 0
     },
+    
+   
 ];
 
 export const projectsNav = [

@@ -11,7 +11,16 @@ import {
   HiOutlineMenu,
 } from "react-icons/hi";
 
-const Header = () => {
+const Header = ({
+  home,
+  about,
+  skills,
+  services,
+  qualification,
+  portfolio,
+  contact,
+  scrollToSection,
+}) => {
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
     if (this.scrollY >= 80) header.classList.add("scroll-header");
@@ -29,8 +38,7 @@ const Header = () => {
           <ul className="nav__list grid">
             <li className="nav__item">
               <a
-                href="#home"
-                onClick={() => setActiveNav("#home")}
+                onClick={() => scrollToSection(home)}
                 className={
                   activeNav === "#home" ? "nav__link active-link" : "nav__link"
                 }
@@ -41,8 +49,7 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a
-                href="#about"
-                onClick={() => setActiveNav("#about")}
+                onClick={() => scrollToSection(about)}
                 className={
                   activeNav === "#about" ? "nav__link active-link" : "nav__link"
                 }
@@ -53,8 +60,7 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a
-                href="#skills"
-                onClick={() => setActiveNav("#skills")}
+                onClick={() => scrollToSection(skills)}
                 className={
                   activeNav === "#skills"
                     ? "nav__link active-link"
@@ -67,8 +73,7 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a
-                href="#services"
-                onClick={() => setActiveNav("#services")}
+                onClick={() => scrollToSection(services)}
                 className={
                   activeNav === "#services"
                     ? "nav__link active-link"
@@ -81,8 +86,7 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a
-                href="#experiences"
-                onClick={() => setActiveNav("#experiences")}
+                onClick={() => scrollToSection(qualification)}
                 className={
                   activeNav === "#experiences"
                     ? "nav__link active-link"
@@ -96,8 +100,7 @@ const Header = () => {
 
             <li className="nav__item">
               <a
-                href="#portfolio"
-                onClick={() => setActiveNav("#portfolio")}
+                onClick={() => scrollToSection(portfolio)}
                 className={
                   activeNav === "#portfolio"
                     ? "nav__link active-link"
@@ -110,8 +113,7 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a
-                href="#contact"
-                onClick={() => setActiveNav("#contact")}
+                onClick={() => scrollToSection(contact)}
                 className={
                   activeNav === "#contact"
                     ? "nav__link active-link"
