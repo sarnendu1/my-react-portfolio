@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
 import AboutImg from "../../assets/about.png";
-import CV from "../../assets/Example-Cv.pdf";
+import CV from "../../assets/Resume.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -14,7 +14,7 @@ const About = () => {
             <div className="about__data">
                 <Info />
                 <p className="about__description">
-                Hello, I’m Sarnendu Das, I'm a web developer lives in Kolkata. I mainly make websites using Next Js, React Js, Javascript,Html, Css and etc.
+                Hello, I’m Sarnendu Das, I'm a Software Developer lives in Kolkata. I mainly make websites using Next Js, React Js, Javascript,Html, Css and etc.
                 </p>
                 <a download="" href={CV} className="button button--flex">
                     Download Resume

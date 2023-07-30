@@ -92,7 +92,7 @@ export const projectsData = [
         category: "Personal",
         languages: "NodeJs, Socket.IO, HTML, CSS",
         githubLink: "https://github.com/sarnendu1/chatbox",
-        demoLink: "/",
+        demoLink: "https://chatbox-z7nq.onrender.com",
         githubVisibility: 1,
     },
     {

@@ -79,6 +79,41 @@ const Frontend = () => {
                             <span className="skills__level">Experienced</span>
                         </div>
                     </div>
+                    <div className="skills__data">
+                        <HiCheckBadge />
+                        <div>
+                            <h3 className="skills__name">Vite Js</h3>
+                            <span className="skills__level">Experienced</span>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <HiCheckBadge />
+                        <div>
+                            <h3 className="skills__name">Node Js</h3>
+                            <span className="skills__level">Experienced</span>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <HiCheckBadge />
+                        <div>
+                            <h3 className="skills__name">Express Js</h3>
+                            <span className="skills__level">Experienced</span>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <HiCheckBadge />
+                        <div>
+                            <h3 className="skills__name">MySQL</h3>
+                            <span className="skills__level">Experienced</span>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <HiCheckBadge />
+                        <div>
+                            <h3 className="skills__name">MongoDB</h3>
+                            <span className="skills__level">Experienced</span>
+                        </div>
+                    </div>
                     </div>
         //     </div>
         // </div>
