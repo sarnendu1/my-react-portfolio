@@ -5,6 +5,7 @@ import raycues from "../../assets/Portfolio/raycues.png";
 import purpleGlib from "../../assets/Portfolio/purple-glib.png";
 import weather from "../../assets/Portfolio/weather.png";
 import todo from "../../assets/Portfolio/todo.png";
+import yt from "../../assets/Portfolio/yt.png";
 import google from "../../assets/Portfolio/google.png";
 import kepler from "../../assets/Portfolio/kepler.png";
 import chatGPT2 from "../../assets/Portfolio/chatGPT2.O.png";
@@ -46,12 +47,12 @@ export const projectsData = [
     },
     {
         id: 4,
-        image: google,
-        title: "Google Clone",
+        image: yt,
+        title: "Youtube Clone",
         category: "Personal",
-        languages: "NextJs, ReactJs",
+        languages: "ReactJs, RapidAPI",
         githubLink: "/",
-        demoLink: "https://google-clone-sarnendu.vercel.app",
+        demoLink: "https://youtube-clone-sarnendu.vercel.app",
         githubVisibility: 0
     },
     // {
@@ -64,9 +65,18 @@ export const projectsData = [
     //     demoLink: "/",
     //     githubVisibility: 1,
     // },
-
     {
         id: 5,
+        image: google,
+        title: "Google Clone",
+        category: "Personal",
+        languages: "NextJs, ReactJs",
+        githubLink: "/",
+        demoLink: "https://google-clone-sarnendu.vercel.app",
+        githubVisibility: 0
+    },
+    {
+        id: 6,
         image: purpleGlib,
         title: "Purple Glib",
         category: "Personal",
@@ -75,16 +85,7 @@ export const projectsData = [
         demoLink: "https://sarnendu-blog-app-sarnendu1.vercel.app",
         githubVisibility: 0
     },
-    {
-        id: 6,
-        image: raycues,
-        title: "Raycues",
-        category: "Professional",
-        languages: "NextJs, Javascript, HTML, CSS, Bootstrap",
-        githubLink: "/",
-        demoLink: "https://rayques.com",
-        githubVisibility: 0
-    },
+    
     {
         id: 7,
         image: chatbox,
@@ -97,6 +98,16 @@ export const projectsData = [
     },
     {
         id: 8,
+        image: raycues,
+        title: "Raycues",
+        category: "Professional",
+        languages: "NextJs, Javascript, HTML, CSS, Bootstrap",
+        githubLink: "/",
+        demoLink: "https://rayques.com",
+        githubVisibility: 0
+    },
+    {
+        id: 9,
         image: crud,
         title: "CRUD App",
         category: "Personal",
@@ -106,7 +117,7 @@ export const projectsData = [
         githubVisibility: 1
     },
     {
-        id: 9,
+        id: 10,
         image: weather,
         title: "Weather App",
         category: "Personal",
@@ -116,7 +127,7 @@ export const projectsData = [
         githubVisibility: 1
     },
     {
-        id: 10,
+        id: 11,
         image: todo,
         title: "Todo List",
         category: "Personal",
@@ -127,7 +138,7 @@ export const projectsData = [
     },
     
     {
-        id: 11,
+        id: 12,
         image: hemanth,
         title: "Dr.Hemanth's Clinic",
         category: "Professional",
@@ -137,7 +148,7 @@ export const projectsData = [
         githubVisibility: 0
     },
     {
-        id: 12,
+        id: 13,
         image: dawai,
         title: "Dawai Help",
         category: "Professional",
