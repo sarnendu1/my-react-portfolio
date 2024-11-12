@@ -12,11 +12,32 @@ import chatGPT2 from "../../assets/Portfolio/chatGPT2.O.png";
 import crud from "../../assets/Portfolio/crud.png";
 import dawai from "../../assets/Portfolio/dawai.png";
 import hemanth from "../../assets/Portfolio/hemanth.png";
-
+import seg from "../../assets/Portfolio/seg.png";
+import nerolac from "../../assets/Portfolio/nerolac.png";
 
 export const projectsData = [
     {
         id: 1,
+        image: seg,
+        title: "SEG Automotive Dashboard",
+        category: "Professional",
+        languages: "ReactJs, Redux, MaterialUi ",
+        githubLink: "/",
+        demoLink: "https://wearethemotor.seg-automotive.com",
+        githubVisibility: 0,
+    },
+    {
+        id: 2,
+        image: nerolac,
+        title: "Nerolac Dashboard",
+        category: "Professional",
+        languages: "ReactJs, Redux, MaterialUi ",
+        githubLink: "/",
+        demoLink: "https://precisiondev.nerolac.com",
+        githubVisibility: 0,
+    },
+    {
+        id: 3,
         image: mta,
         title: "Mobillor Talent Accelerator",
         category: "Professional",
@@ -26,7 +47,7 @@ export const projectsData = [
         githubVisibility: 0,
     },
     {
-        id: 2,
+        id: 4,
         image: kepler,
         title: "Kepler",
         category: "Personal",
@@ -36,7 +57,7 @@ export const projectsData = [
         githubVisibility: 0,
     },
     {
-        id: 3,
+        id: 5,
         image: chatGPT2,
         title: "ChatGPT 2.O",
         category: "Personal",
@@ -46,7 +67,7 @@ export const projectsData = [
         githubVisibility: 0
     },
     {
-        id: 4,
+        id: 6,
         image: yt,
         title: "Youtube Clone",
         category: "Personal",
@@ -66,7 +87,7 @@ export const projectsData = [
     //     githubVisibility: 1,
     // },
     {
-        id: 5,
+        id: 7,
         image: google,
         title: "Google Clone",
         category: "Personal",
@@ -76,7 +97,7 @@ export const projectsData = [
         githubVisibility: 0
     },
     {
-        id: 6,
+        id: 8,
         image: purpleGlib,
         title: "Purple Glib",
         category: "Personal",
@@ -87,7 +108,7 @@ export const projectsData = [
     },
     
     {
-        id: 7,
+        id: 9,
         image: chatbox,
         title: "Chatbox",
         category: "Personal",
@@ -97,7 +118,7 @@ export const projectsData = [
         githubVisibility: 1,
     },
     {
-        id: 8,
+        id: 10,
         image: raycues,
         title: "Raycues",
         category: "Professional",
@@ -107,7 +128,7 @@ export const projectsData = [
         githubVisibility: 0
     },
     {
-        id: 9,
+        id: 11,
         image: crud,
         title: "CRUD App",
         category: "Personal",
@@ -117,7 +138,7 @@ export const projectsData = [
         githubVisibility: 1
     },
     {
-        id: 10,
+        id: 12,
         image: weather,
         title: "Weather App",
         category: "Personal",
@@ -127,7 +148,7 @@ export const projectsData = [
         githubVisibility: 1
     },
     {
-        id: 11,
+        id: 13,
         image: todo,
         title: "Todo List",
         category: "Personal",
@@ -138,7 +159,7 @@ export const projectsData = [
     },
     
     {
-        id: 12,
+        id: 14,
         image: hemanth,
         title: "Dr.Hemanth's Clinic",
         category: "Professional",
@@ -148,7 +169,7 @@ export const projectsData = [
         githubVisibility: 0
     },
     {
-        id: 13,
+        id: 15,
         image: dawai,
         title: "Dawai Help",
         category: "Professional",
